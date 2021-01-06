@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #014152;
+  padding: 10px;
+  min-width: 200px;
+  overflow-y: hidden;
+  /* height: 95vh; */
+  /* max-height: 1200px; */
+}
+
+.sidebar .brand-sidebar {
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar .brand-sidebar span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(27, 21, 21);
+}
+
+.sidebar .brand-sidebar:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.create-div {
+  margin-top: 20px;
+  border: 1px solid ;
+  border-right: 0;
+  border-left: 0;
+}
+
+.button-create-list {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
+
+.button-create-list:hover {
+  transform: scale(0.95, 0.95);
+}
+
+.create-div .input-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.lists {
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.lists::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.lists::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.lists::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+.lists p {
+  display: block;
+  text-transform: uppercase;
+  padding: 2px 2px;
+  cursor: pointer;
+}
+
+.lists p:hover {
+  padding-left: 10px;
+  /* transform: scale(1.1, 1.1); */
+}
+
+.content-center {
+  width: 100%;
+}
+
+.list-div h2{
+  color: #fff;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #014152; 
+}
+
+.welcome p{
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+
+}
+
+.welcome p span {
+  color: rgb(195, 158, 158);
+}
+
+.logout p {
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logout p span {
+  color: #000;
+}
+
+.logout p:hover {
+  transform: scale(0.95, 0.95);
+}
+
+.pages {
+  overflow-y: auto;
+  height: 94vh;
+  max-height: 1200px;
+}
+
+.pages::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.pages::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.pages::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}

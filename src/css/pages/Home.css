@@ -1,0 +1,29 @@
+.div-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-home h1 {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.div-home p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #444;
+    margin-top: 10%;
+}
+
+.div-home img {
+    width: 30%;
+    height: 30vh;
+    min-width: 400px;
+    min-height: 300px;
+}

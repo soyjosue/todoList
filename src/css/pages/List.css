@@ -1,0 +1,110 @@
+.edits {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edits a,
+.edits p {
+    color: #014152;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+.edits a span,
+.edits p span {
+    color: #000;
+}
+
+.edits a:hover,
+.edits p:hover {
+    transform: scale(0.9, 0.9);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+
+.div-task {
+    list-style: none;
+    padding: 0;
+    padding: 0 20px;
+}
+
+.div-task li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.task-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div-task p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.task-opcion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-opcion .delete {
+    color: red;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.task-opcion .delete:hover {
+    transform: scale(1.2,1.2);
+}
+
+.edit {
+    color: #000;
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.edit:hover {
+    cursor: pointer;
+    transform: scale(0.8,0.8);
+}
+
+.no-found {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-found p {
+    color: #444;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    font-size: 42px;
+}
+
+.no-found img {
+    margin-top: 10%;
+    min-width: 300px;
+    min-height: 200px;
+    width: 50%;
+    max-height: 400px;
+}

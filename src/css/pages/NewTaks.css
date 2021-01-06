@@ -1,0 +1,31 @@
+.list-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-name > h1 {
+    margin: 10px 0 0 0;
+}
+
+.list-name p {
+    color: #014152;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.list-name p span {
+    color: #000;
+}
+
+.new-tasks .name-input {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
